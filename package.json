@@ -1,0 +1,15 @@
+{
+  "name": "stagedoor",
+  "version": "0.1.0",
+  "description": "The Discord Developer Portal from the terminal, for developers and AI agents",
+  "type": "module",
+  "bin": { "stagedoor": "src/cli.ts" },
+  "scripts": {
+    "test": "bun test",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.4.5",
+    "typescript": "^7.0.2"
+  }
+}
